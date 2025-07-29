@@ -1,0 +1,7 @@
+def factorial(n):
+    if n < 2:
+        return 1
+    else:
+        return factorial(n - 1) + factorial(n - 2)
+
+ans = factorial(2)
